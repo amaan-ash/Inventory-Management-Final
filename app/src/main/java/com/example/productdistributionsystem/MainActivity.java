@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //action to perform when s
+        //action to perform when register button is clicked
         registerButtonMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
