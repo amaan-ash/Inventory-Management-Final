@@ -7,6 +7,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color favColor
+color test
 color white
 drawable avatar
 drawable background_image
@@ -76,10 +77,10 @@ id recyclerView
 id refresh
 id refreshItems
 id registerBtn
+id registerButtonMain
 id scanButton
 id searchBtn
 id searchItems
-id signUpMain
 id textInputLayout
 id textInputLayout2
 id textInputLayout3

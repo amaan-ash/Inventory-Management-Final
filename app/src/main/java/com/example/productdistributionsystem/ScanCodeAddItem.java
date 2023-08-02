@@ -22,6 +22,7 @@ public class ScanCodeAddItem extends AppCompatActivity implements ZXingScannerVi
     @Override
     public void handleResult(Result result) {
 
+        //set the barcode value which is received by the ZXing
       AddProductActivity.resultTextView.setText(result.getText());
 
         onBackPressed();

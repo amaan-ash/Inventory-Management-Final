@@ -3553,6 +3553,7 @@ id recyclerView
 id refresh
 id refreshItems
 id registerBtn
+id registerButtonMain
 id resend_barrier
 id resend_code
 id reverseSawtooth
@@ -3611,7 +3612,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUpMain
 id sign_in_email_sent_text
 id sin
 id skipCollapsed

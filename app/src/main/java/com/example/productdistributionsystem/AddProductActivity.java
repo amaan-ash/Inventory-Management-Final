@@ -32,6 +32,8 @@ public class AddProductActivity extends AppCompatActivity {
     private Button scanButton;
     private Button addItemButton;
     DatabaseReference databaseReference;
+
+    //for category
     DatabaseReference databaseReferencecat;
     @SuppressLint("CutPasteId")
     @Override
@@ -58,6 +60,7 @@ public class AddProductActivity extends AppCompatActivity {
 
 
 
+        //to perform an action when scan button is clicked
         scanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,6 +68,7 @@ public class AddProductActivity extends AppCompatActivity {
             }
         });
 
+        //to perform an action when add item button is clicked
         addItemButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

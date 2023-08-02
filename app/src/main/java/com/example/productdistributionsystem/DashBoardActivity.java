@@ -32,7 +32,7 @@ public class DashBoardActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
 
-        //finding views By Id
+        //finding views By Id to implement logic to the code
         addProduct =findViewById(R.id.addProduct);
         deleteProduct =findViewById(R.id.deleteProduct);
         viewProduct =findViewById(R.id.viewProduct);

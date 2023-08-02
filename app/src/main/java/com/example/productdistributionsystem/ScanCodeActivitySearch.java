@@ -27,6 +27,7 @@ public class ScanCodeActivitySearch extends AppCompatActivity implements ZXingSc
     @Override
     public void handleResult(Result result) {
 
+        //the value which the ZXing Scanner got will be set in resultSearchView of SearchItemsActivity
         SearchItemsActivity.resultSearchView.setText(result.getText());
 
         onBackPressed();

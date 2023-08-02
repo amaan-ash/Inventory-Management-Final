@@ -27,6 +27,7 @@ import org.w3c.dom.Text;
 
 
 public class RegisterActivity extends AppCompatActivity {
+    //declaring the variables
 
     private ImageView inventoryImage;
     private TextInputEditText editEmail;
@@ -45,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        //finding the views by Id
+        //finding the views by Id so that i can provide logic to it
         inventoryImage=findViewById(R.id.inventoryImage);
         editEmail=findViewById(R.id.editEmail);
         editPassword=findViewById(R.id.editPassword);
@@ -56,8 +57,12 @@ public class RegisterActivity extends AppCompatActivity {
         progressBar=findViewById(R.id.progressBar);
 
 
+        //getting the instance of the FireBaseAuth class
         auth = FirebaseAuth.getInstance();
+
         progressBar.setVisibility(View.GONE);
+
+        //action to perform when register button is clicked
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,6 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+        //action to perform when already registered textView is clicked
         alreadyRegistered.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -122,6 +128,8 @@ public class RegisterActivity extends AppCompatActivity {
 
 
         progressBar.setVisibility(View.VISIBLE);
+
+        //to register the user
         auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override

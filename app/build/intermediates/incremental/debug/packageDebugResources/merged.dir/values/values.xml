@@ -5,6 +5,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="favColor">#0D92FC</color>
+    <color name="test">#6F96CA"</color>
     <color name="white">#FFFFFF</color>
     <string name="app_name">Inventory App</string>
     <string name="default_web_client_id" translatable="false">291484706567-ufak9c4fehk85hfp9tmh1pcjebqkoabr.apps.googleusercontent.com</string>

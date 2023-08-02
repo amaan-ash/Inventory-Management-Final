@@ -3552,6 +3552,7 @@ int id recyclerView 0x7f0801a1
 int id refresh 0x7f0801a2
 int id refreshItems 0x7f0801a3
 int id registerBtn 0x7f0801a4
+int id registerButtonMain 0x7f080262
 int id resend_barrier 0x7f0801a5
 int id resend_code 0x7f0801a6
 int id reverseSawtooth 0x7f0801a7
@@ -3610,7 +3611,6 @@ int id shortcut 0x7f0801db
 int id showCustom 0x7f0801dc
 int id showHome 0x7f0801dd
 int id showTitle 0x7f0801de
-int id signUpMain 0x7f0801df
 int id sign_in_email_sent_text 0x7f0801e0
 int id sin 0x7f0801e1
 int id skipCollapsed 0x7f0801e2

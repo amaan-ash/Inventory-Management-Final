@@ -48,9 +48,12 @@ public class LoginActivity extends AppCompatActivity {
         notRegistered=findViewById(R.id.notRegistered);
 
         progressBar.setVisibility(View.GONE);
+
+        //creating the object of FirebaseAuth class
         auth = FirebaseAuth.getInstance();
         processDialog = new ProgressDialog(this);
 
+        //action to perform when login button is clicked
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +90,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
+        //action to perform when forgotPassword textView is clicked
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -94,6 +99,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        //action to perform when notRegistered textView is clicked
         notRegistered.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -112,6 +118,7 @@ public class LoginActivity extends AppCompatActivity {
         processDialog.setMessage("................Please Wait.............");
         processDialog.show();
 
+        //using the firebase code to sign in with email and password
         auth.signInWithEmailAndPassword(userEmail, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -138,6 +145,8 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
         progressBar.setVisibility(View.VISIBLE);
+
+        //using the firebase code to send email for resetting the password
         auth.sendPasswordResetEmail(resetEmail)
 
                 .addOnCompleteListener(new OnCompleteListener<Void>() {

@@ -17,6 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class DeleteProductActivity extends AppCompatActivity {
 
+    //declaring the variables
     public static TextView resultDeleteView;
     private FirebaseAuth auth;
     private Button buttonScanDelete;
@@ -27,12 +28,14 @@ public class DeleteProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delete_product);
 
+        //getting views by id
         auth=FirebaseAuth.getInstance();
         databaseReference= FirebaseDatabase.getInstance().getReference("Users");
         resultDeleteView=findViewById(R.id.barcodeDelete);
         buttonScanDelete=findViewById(R.id.buttonScanDelete);
         deleteItemBtn=findViewById(R.id.deleteItemBtn);
 
+        //action to perform when scan button is clicked
         buttonScanDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +44,8 @@ public class DeleteProductActivity extends AppCompatActivity {
             }
 
         });
+
+        //action to perform when delete item button is clicked
         deleteItemBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

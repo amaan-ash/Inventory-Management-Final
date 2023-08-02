@@ -15,13 +15,14 @@ public class ScanCodeDeleteItem extends AppCompatActivity implements ZXingScanne
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         scannerView = new ZXingScannerView(this);
         setContentView(scannerView);
     }
 
     @Override
     public void handleResult(Result result) {
-
+        //set the barcode value to resultDeleteView in DeleteProductActivity which was scanned by ZXing
         DeleteProductActivity.resultDeleteView.setText(result.getText());
         onBackPressed();
     }

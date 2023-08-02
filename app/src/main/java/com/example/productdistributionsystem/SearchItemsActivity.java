@@ -25,6 +25,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
 public class SearchItemsActivity extends AppCompatActivity {
+
+    //declaring the variables
     public static EditText resultSearchView;
    private  RecyclerView recyclerView;
    private DatabaseReference databaseReference;
@@ -40,24 +42,32 @@ public class SearchItemsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search_items);
 
 
+        //getting views by id
         recyclerView=findViewById(R.id.recyclerView);
         resultSearchView =findViewById(R.id.searchItems);
         searchBtn=findViewById(R.id.searchBtn);
         imageButtonSearch=findViewById(R.id.imageButtonSearch);
 
 
+        //to create an object of FireBaseAuth class
         firebaseAuth = FirebaseAuth.getInstance();
+
+        //to get the current user details
         final FirebaseUser users = firebaseAuth.getCurrentUser();
+
+        //to get the current user email
         String finalUser=users.getEmail();
+
         String resultEmail = finalUser.replace(".","");
         databaseReference = FirebaseDatabase.getInstance().getReference("Users").child(resultEmail).child("Items");
 
 
 
 
-
+        //for setting the recycler view
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        //action to perform when searchBtn is clicked
         searchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,6 +75,7 @@ public class SearchItemsActivity extends AppCompatActivity {
             }
         });
 
+        //action to perform when imageButton is clicked
         imageButtonSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

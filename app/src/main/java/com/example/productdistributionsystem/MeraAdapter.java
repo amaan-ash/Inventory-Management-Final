@@ -17,6 +17,7 @@ public class MeraAdapter extends FirebaseRecyclerAdapter<Items, MeraAdapter.MyVi
         super(options);
     }
 
+ //   to display the data at the specified position the below method is used
     @Override
     protected void onBindViewHolder(@NonNull MyViewHolder holder, int position, @NonNull Items model) {
         holder.itemBarCode.setText(model.getItemBarCode());
@@ -25,6 +26,7 @@ public class MeraAdapter extends FirebaseRecyclerAdapter<Items, MeraAdapter.MyVi
         holder.itemPrice.setText(model.getItemPrice());
     }
 
+    //for creating a new View holder the below method is used
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -32,6 +34,7 @@ public class MeraAdapter extends FirebaseRecyclerAdapter<Items, MeraAdapter.MyVi
         return new MyViewHolder(view);
     }
 
+   // the below ViewHolder is a helper class that holds the View of a row or rows.
     class MyViewHolder extends RecyclerView.ViewHolder{
         TextView itemName;
         TextView itemBarCode;

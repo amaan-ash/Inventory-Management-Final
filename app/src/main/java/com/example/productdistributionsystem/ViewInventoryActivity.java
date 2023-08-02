@@ -28,6 +28,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Map;
 
 public class ViewInventoryActivity extends AppCompatActivity{
+
+    //declaring the variables
     private FirebaseAuth firebaseAuth;
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
@@ -40,6 +42,7 @@ public class ViewInventoryActivity extends AppCompatActivity{
         setContentView(R.layout.activity_view_inventory);
 
 
+        //getting views by id
         totalNumOfItems = findViewById(R.id.totalNumOfItems);
         totalSum = findViewById(R.id.totalSum);
         firebaseAuth = FirebaseAuth.getInstance();
@@ -55,7 +58,10 @@ public class ViewInventoryActivity extends AppCompatActivity{
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+
         databaseReference.addValueEventListener(new ValueEventListener() {
+
+            //if item is added or deleted it will update in below method
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
@@ -73,6 +79,8 @@ public class ViewInventoryActivity extends AppCompatActivity{
         });
 
         databaseReference.addValueEventListener(new ValueEventListener() {
+
+            //to monitor the sum of the items the below method is used
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 float sum=0.0f;
@@ -97,6 +105,8 @@ public class ViewInventoryActivity extends AppCompatActivity{
 
     }
 
+
+    //to make the recycler view to start getting the data from the database
     @Override
     protected void onStart() {
         super.onStart();
@@ -112,6 +122,9 @@ public class ViewInventoryActivity extends AppCompatActivity{
 
     }
 
+
+
+    //to make the recycler view to stop getting the data from the database
     @Override
     protected void onStop() {
         try {
