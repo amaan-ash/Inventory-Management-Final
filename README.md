@@ -23,15 +23,15 @@
 
 | Feature | Screenshot |
 |---------|------------|
-| **Splash Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/splash-screen.png" width="300"/> |
-| **Welcome Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/welcome-screen.png" width="300"/> |
-| **Login Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/login-screen.png" width="300"/> |
-| **Registration Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/registration-screen.png" width="300"/> |
-| **Dashboard** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/dashboard.png" width="300"/> |
-| **Add Item Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/add-item.png" width="300"/> |
-| **Search Item Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/search-item.png" width="300"/> |
-| **Delete Item Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/delete-item.png" width="300"/> |
-| **View Inventory Screen** |<img src="https://github.com/yourusername/Inventory-Management-App/blob/main/screenshots/view-inventory.png" width="300"/> |
+| **Splash Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/splash-screen.jpeg" width="300"/> |
+| **Welcome Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/welcome-screen.jpeg" width="300"/> |
+| **Login Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/login-user.jpeg" width="300"/> |
+| **Registration Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/register-user.jpeg" width="300"/> |
+| **Dashboard** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/dashboard.jpeg" width="300"/> |
+| **Add Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/add-product.jpeg" width="300"/> |
+| **Search Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/search-product.jpeg" width="300"/> |
+| **Delete Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/delete-product.jpeg" width="300"/> |
+| **View Inventory Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/view-inventory.jpeg" width="300"/> |
 
 ## Getting Started 🚀
 
