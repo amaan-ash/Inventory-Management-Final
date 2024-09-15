@@ -19,19 +19,27 @@
 ### 5. Barcode Scanning 📚
 - Use the built-in barcode scanner to add or locate items by scanning their barcodes.
 
+## Tech Stack 🛠️
+
+- **Android**: Native Android development
+- **Java**: Core language for application development
+- **XML**: For defining layouts and UI components
+- **Firebase**: For user authentication and database management
+- **ZXing (Zebra Crossing)**: Barcode scanning library
+
 ## Screenshots 📸
 
 | Feature | Screenshot |
 |---------|------------|
-| **Splash Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/splash-screen.jpeg" width="300"/> |
-| **Welcome Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/welcome-screen.jpeg" width="300"/> |
-| **Login Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/login-user.jpeg" width="300"/> |
-| **Registration Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/register-user.jpeg" width="300"/> |
-| **Dashboard** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/dashboard.jpeg" width="300"/> |
-| **Add Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/add-product.jpeg" width="300"/> |
-| **Search Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/search-product.jpeg" width="300"/> |
-| **Delete Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/delete-product.jpeg" width="300"/> |
-| **View Inventory Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/view-inventory.jpeg" width="300"/> |
+| **Splash Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/splash-screen.jpeg" width="250"/> |
+| **Welcome Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/welcome-screen.jpeg" width="250"/> |
+| **Login Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/login-user.jpeg" width="250"/> |
+| **Registration Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/register-user.jpeg" width="250"/> |
+| **Dashboard** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/dashboard.jpeg" width="250"/> |
+| **Add Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/add-product.jpeg" width="250"/> |
+| **Search Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/search-product.jpeg" width="250"/> |
+| **Delete Item Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/delete-product.jpeg" width="250"/> |
+| **View Inventory Screen** |<img src="https://github.com/amaan-ash/Inventory-Management-Final/blob/main/screenshots/view-inventory.jpeg" width="250"/> |
 
 ## Getting Started 🚀
 
