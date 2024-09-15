@@ -1,9 +1,9 @@
-#Wed Aug 02 21:12:41 IST 2023
-base.0=C\:\\Users\\Amaan Ali\\AndroidStudioProjects\\ProductDistributionSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Amaan Ali\\AndroidStudioProjects\\ProductDistributionSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Amaan Ali\\AndroidStudioProjects\\ProductDistributionSystem\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\Amaan Ali\\AndroidStudioProjects\\ProductDistributionSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.4=C\:\\Users\\Amaan Ali\\AndroidStudioProjects\\ProductDistributionSystem\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Sun Sep 15 09:11:38 IST 2024
+base.0=C\:\\Users\\Amaan Ali\\Downloads\\Inventory Managment App\\Inventory-Management-Final-main\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Amaan Ali\\Downloads\\Inventory Managment App\\Inventory-Management-Final-main\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Amaan Ali\\Downloads\\Inventory Managment App\\Inventory-Management-Final-main\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\Amaan Ali\\Downloads\\Inventory Managment App\\Inventory-Management-Final-main\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.4=C\:\\Users\\Amaan Ali\\Downloads\\Inventory Managment App\\Inventory-Management-Final-main\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex
